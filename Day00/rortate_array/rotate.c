@@ -1,4 +1,4 @@
-//#include <stdio.h>
+#include <stdio.h>
 
 void rotate_right(int arr[], int size, int k)
 {
@@ -15,14 +15,14 @@ void rotate_right(int arr[], int size, int k)
     }
 }
 
-/*int main()
+int main()
 {
     int arr[] = {1, 2, 3, 4, 5};
     int size = 5;
-    int k = 2;
+    int k = 1;
 
     rotate_right(arr, size, k);
 
     for (int i = 0; i < size; i++)
         printf("%d ", arr[i]);
-}*/
+}
